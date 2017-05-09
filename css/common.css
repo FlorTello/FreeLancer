@@ -1,3 +1,76 @@
 /*
  * Estilos reutilizables
  */
+ .text-uppercase{
+   text-transform: uppercase;
+ }
+ .float-left{
+   float: left;
+ }
+ .float-right{
+  float: right;
+ }
+ .container{
+   width: 100%;
+   max-width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ .row::before, .row::after{
+   content: " ";
+   display: table;
+ }
+ .row::after{
+   clear: both;
+ }
+ [class*="col-"]{
+   min-height: 7px;
+ }
+ .content{
+   padding: 7px;
+ }
+ .height-nav{
+   height: 100px;
+ }
+ .color-nav{
+   background-color: #314459;
+ }
+ .color-red{
+   background-color: red;
+ }
+ .col-1{
+   width: 8.33333%;
+ }
+ .col-2{
+   width: 16.6666%;
+ }
+ .col-3{
+   width: 25%;
+ }
+ .col-4{
+   width: 33.3333%;
+ }
+ .col-5{
+   width: 41.666667%;
+ }
+ .col-6{
+   width: 50%;
+ }
+ .col-7{
+   width: 58.333%;
+ }
+ .col-8{
+   width: 66.666667%;
+ }
+ .col-9{
+   width: 75%;
+ }
+ .col-10{
+   width: 83.333%;
+ }
+ .col-11{
+   width: 91.666%;
+ }
+ .col-12{
+   width: 100%;
+ }
