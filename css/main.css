@@ -40,11 +40,13 @@
   font-size: 1.7rem;
 }
 .portafolio img{
-  /*display: block;*/
-  /*width: 500px;*/
   max-width: 100%;
   height: auto;
   margin: 10px;
+  background-color: #18BC9C;
+}
+.portafolio figure:hover{
+  opacity: .1;
 }
 .portafolio,
 .slider{
@@ -129,4 +131,46 @@ footer div.bottom p{
 footer .icon:hover{
   color: #18BC9C;
   background-color: #fff;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 200;
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff;
+}
+
+/* Modal Content */
+.modal-content {
+  margin: 0 auto;
+  border: 14px solid white;
+  width: 50%;
+}
+.modal-content img{
+  width: 100%;
+  margin: 0 auto;
+}
+/* The Close Sopan */
+.close {
+  /*display: none;*/
+  color: #48F1A4;
+  float: right;
+  font-size: 60px;
+  position: relative;
+  line-height: 0;
+  top: 10px;
+}
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.OpenClose{
+  display: block;
 }

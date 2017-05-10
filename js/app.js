@@ -25,10 +25,9 @@ window.addEventListener('load',function(){
 
   document.getElementById('container-work').appendChild(dfm);
 });
-// document.getElementsByClassName('close')[0].addEventListener('click',function(e){
-//   // document.getElementById('modal').style.display = 'none';
-//   document.getElementById('modal').classList.toggle('OpenClose');
-// });
+document.getElementsByClassName('close')[0].addEventListener('click',function(e){
+  document.getElementById('modal').classList.toggle('OpenClose');
+});
 
 function crearImgWork(url,descripcion,id){
   var figure = document.createElement('figure');
