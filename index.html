@@ -9,23 +9,74 @@
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="font" href="assets/fonts/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/css/font-awesome.css">
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
 	<header>
-		<nav class="container color-nav height-nav">
-					<div class="content-nav" >
+		<nav class="container color-nav " id = "nav-header">
+					<div class="content-nav row" id = "content-nav">
 	          <ul class="col-12">
 	          	<li class="text-uppercase float-left"><a href="">star bootstrap</a></li>
+							<li class="text-uppercase float-right"><a href="">contact</a></li>
+							<li class="text-uppercase float-right"><a href="">about</a></li>
 	          	<li class="text-uppercase float-right"><a href="">portafolio</a></li>
-	          	<li class="text-uppercase float-right"><a href="">about</a></li>
-	          	<li class="text-uppercase float-right"><a href="">contact</a></li>
 	          </ul>
 	        </div>
 		</nav>
+		<section class="container text-center slider color-white fondo-green">
+			<img src="assets/images/profile.png" alt="">
+			<p>
+				<h1 class="text-uppercase ">start bootstrap</h1>
+				<br>
+				<hr class="fondo-white">
+				<br>
+				Web Developer - Graphic Artist - User Experience Designer
+			</p>
+		</section>
 	</header>
+	<section class=" content portafolio text-center">
+				<div class="row">
+					<h1 class="text-uppercase">portafolio</h1><br>
+					<hr class="color-nav">
+				</div>
+				<div class="row" id ="container-work">
+				</div>
+	</section>
 
+<footer>
+	<div class="container top">
+		<div class="row text-center">
+			<div class="col-4 color-white">
+					<h2 class="text-uppercase">location</h2><br>
+					<p>3481 Melrose Place <br>
+					   Beverly Hills, CA 90210
+					</p>
+			</div>
+			<div class="col-4 color-white">
+					<h2 class="text-uppercase">around the web</h2><br>
+					<div>
+						<span class="icon fa fa-fw fa-facebook"></span>
+						<span class="icon fa fa-fw fa-google-plus"></span>
+						<span class="icon fa fa-fw fa-twitter"></span>
+						<span class="icon fa fa-fw fa-linkedin"></span>
+						<span class="icon fa fa-fw fa-dribbble"></span>
+					</div>
+			</div>
+			<div class="col-4 color-white">
+				<h2 class="text-uppercase">ABOUT FREELANCER</h2><br>
+				<p>Freelance is a free to use, open  <br>
+					 source Bootstrap theme created <br>
+					 by <a href="">Start Bootstrap</a>.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container bottom">
+		<p>Copyright © Your Website 2017</p>
+	</div>
+</footer>
 	<!-- Enlaza aquí tu archivo JS -->
 <script type="text/javascript" src = "js/app.js">
 

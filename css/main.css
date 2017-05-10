@@ -7,9 +7,17 @@
    margin: 0;
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
  }
+
  .content-nav{
-   margin-left: 5%;
-   margin-right: 5%;
+   margin: 0 5% 0 5%;
+   padding: 1%;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   transition: all 0.5s;
+ }
+ header nav{
+   position: fixed;
+   z-index: 100;
  }
  nav li, a{
     text-decoration: none;
@@ -18,5 +26,107 @@
     margin: 10px;
  }
  nav ul li:nth-child(1) a{
-   font-size: 38px;
+   font-size: 1.3rem;
+   font-weight: bold;
  }
+ nav ul li.float-right a{
+   font-size: 0.9rem;
+   font-weight: bold;
+ }
+ nav li.float-right a:hover{
+   color: #18BC9C;
+ }
+.cambiar-nav li:nth-child(1) a{
+  font-size: 1.7rem;
+}
+.portafolio img{
+  /*display: block;*/
+  /*width: 500px;*/
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.portafolio,
+.slider{
+  min-height: 700px;
+  position: relative;
+  padding-top: 150px;
+  line-height: 43px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.slider h1{
+  font-size: 67px;
+}
+.portafolio h1{
+  font-size: 3rem;
+}
+.portafolio hr,
+.slider hr{
+  width: 260px;
+  margin-left: 40%;
+  height: 5px;
+  border: transparent;
+}
+.slider hr::after{
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -1.3rem;
+  font-size: 1em;
+  padding: 0 .8rem;
+  background-color: #18BC9C ;
+}
+.portafolio hr::after{
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -1.3rem;
+  font-size: 1em;
+  padding: 0 .8rem;
+  background-color: #fff ;
+  color: #2C3E50;
+}
+#container-work{
+  /*display: flex;*/
+}
+/*footer*/
+footer{
+  /*position: absolute;
+  width: 100%;
+  bottom: 0;*/
+  line-height: 25px;
+}
+footer a{
+  color: #18BC9C;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer div.top{
+  box-sizing: border-box;
+  padding: 70px;
+ background-color: #2C3E50;
+ min-height: 270px;
+ font-size: 0.8rem;
+}
+footer div.top p{
+  font-size: 1rem;
+}
+footer div.bottom{
+ background-color: #233140;
+ text-align: center;
+ color: #E2E4E6;
+ font-size: 0.8rem;
+ font-weight: 400;
+ height: 67px;
+}
+footer div.bottom p{
+  padding-top: 15px;
+}
+footer .icon:hover{
+  color: #18BC9C;
+  background-color: #fff;
+}
